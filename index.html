@@ -6,48 +6,60 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body class="bg-white">
-    <div class="flex flex-col ">
-        <div class="bg-violetBlue">
-            <h1>Your Result</h1>
-        </div>
+<body class="bg-background">
+    <div class="flex flex-col gap-8 items-center justify-center h-screen ">
+        <div class="flex flex-row justify-center bg-white rounded-2xl">
 
-        <div class="flex flex-col gap-2 p-8">
-            <h1>Summary</h1>
-            <div class="flex flex-row justify-between items-center p-4 bg-backgroundRed text-lightRed ">
-                <div class="flex flex-row gap-1.5">
-                    <img src="./src/assets/images/icon-reaction.svg" alt="">
-                    <p>Reaction</p>
+            <div class="flex flex-col justify-center items-center gap-4 bg-linear-to-t from-lightRoyalBlue to-violetBlue rounded-2xl p-8 text-center text-white">
+                <h1 class="text-xl font-bold tracking-wide">Your Result</h1>
+                <div class="flex flex-col items-center justify-center bg-linear-to-t from-lightSlateBlue to-lightRoyalBlue rounded-full w-48 h-48">
+                    <h1 class="text-7xl">76</h1> 
+                    <p>of 100</p>
                 </div>
-                <p class="text-lightLavender"><span class="font-bold text-darkGreyBlue">80</span> / 100</p>
+                <div class="flex flex-col gap-2">
+                    <h1 class="text-2xl font-bold">Great</h1>
+                    <p class="text-md w-xs">You Scored higher than 65% of the people who took the test</p>
+                </div>
             </div>
 
-            <div class="flex flex-row justify-between items-center p-4 bg-backgroundOrangeYellow text-orangeYellow ">
-                <div class="flex flex-row gap-1.5">
-                    <img src="./src/assets/images/icon-memory.svg" alt="">
-                    <p>Memory</p>
+            <div class="flex flex-col gap-4 p-8 w-md">
+                <h1 class="text-xl font-bold tracking-wide">Summary</h1>
+                <div class="flex flex-row justify-between items-center p-4 bg-backgroundRed text-lightRed rounded-xl">
+                    <div class="flex flex-row gap-1.5">
+                        <img src="./src/assets/images/icon-reaction.svg" alt="">
+                        <p>Reaction</p>
+                    </div>
+                    <p class="text-darkGreyBlue"><span class="font-bold text-darkGreyBlue">80</span> / 100</p>
                 </div>
-                <p class="text-lightLavender"><span class="font-bold text-darkGreyBlue">80</span> / 100</p>
-            </div>
 
-            <div class="flex flex-row justify-between items-center p-4 bg-backgroundGreenTeal text-greenTeal ">
-                <div class="flex flex-row gap-1.5">
-                    <img src="./src/assets/images/icon-verbal.svg" alt="">
-                    <p>Verbal</p>
+                <div class="flex flex-row justify-between items-center p-4 bg-backgroundOrangeYellow text-orangeYellow rounded-xl">
+                    <div class="flex flex-row gap-1.5">
+                        <img src="./src/assets/images/icon-memory.svg" alt="">
+                        <p>Memory</p>
+                    </div>
+                    <p class="text-darkGreyBlue"><span class="font-bold text-darkGreyBlue">80</span> / 100</p>
                 </div>
-                <p class="text-lightLavender"><span class="font-bold text-darkGreyBlue">80</span> / 100</p>
-            </div>
 
-            <div class="flex flex-row justify-between items-center p-4 bg-backgroundCobaltBlue text-cobaltBlue ">
-                <div class="flex flex-row gap-1.5">
-                    <img src="./src/assets/images/icon-visual.svg" alt="">
-                    <p>Visual</p>
+                <div class="flex flex-row justify-between items-center p-4 bg-backgroundGreenTeal text-greenTeal rounded-xl">
+                    <div class="flex flex-row gap-1.5">
+                        <img src="./src/assets/images/icon-verbal.svg" alt="">
+                        <p>Verbal</p>
+                    </div>
+                    <p class="text-darkGreyBlue"><span class="font-bold text-darkGreyBlue">80</span> / 100</p>
                 </div>
-                <p class="text-lightLavender"><span class="font-bold text-darkGreyBlue">80</span> / 100</p>
-            </div>
 
-            <button class="">Continue</button>
+                <div class="flex flex-row justify-between items-center p-4 bg-backgroundCobaltBlue text-cobaltBlue rounded-xl">
+                    <div class="flex flex-row gap-1.5">
+                        <img src="./src/assets/images/icon-visual.svg" alt="">
+                        <p>Visual</p>
+                    </div>
+                    <p class="text-darkGreyBlue"><span class="font-bold text-darkGreyBlue">80</span> / 100</p>
+                </div>
+
+                <button class="bg-darkGreyBlue text-white py-4 rounded-full">Continue</button>
+            </div>
         </div>
     </div>
+
 </body>
 </html>
